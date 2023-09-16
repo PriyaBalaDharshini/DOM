@@ -1,0 +1,9 @@
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(206, 243, 243);
+    margin-top: 20px;
+}
