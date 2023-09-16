@@ -5,5 +5,9 @@ function foo() {
     let email = document.getElementById("email").value
     let pin = document.getElementById("pin").value
 
-    console.log(fname, mname, lname, email, pin);
+    console.log(fname);
+    console.log(mname);
+    console.log(lname);
+    console.log(email);
+    console.log(pin);
 }
