@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Use prompt to read a value from user and display it in the span element. -->
+
+    <button onclick="getValue()">Value: </button>
+    <span id="spanValue"></span>
+
+    <hr>
+
+
+    <!-- Display the mouse X and Y coordinates in a <span> tag when you click on a <h1> tag which contains a paragraph. -->
+    <button onclick="getCoordinate(event)">Click for Value: </button>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, illum.</h1>
+    <span id="spanCoord"></span>
+
+    <hr>
+
+    <!-- Write a Javascript code for character counts in the textarea. -->
+    <form>
+        <h3>Character Counter</h3>
+        <textarea name="" id="textArea" cols="30" rows="10"
+            oninput="countCharacter()">Enter your text to be counted...</textarea>
+        <div id="charCount"><b>0</b></div>
+    </form>
+    <hr>
+
+    <!-- Convert a given number from decimal to binary or hexadecimal -->
+    <h3> Docimal to binary, octal, hexadecimal</h3>
+
+    <label for="number">Enter a number to convert</label> <br>
+    <input type="number" name="" id="number"> <br>
+    <button onclick="convert()">Sumbit</button>
+
+    <div class="value">Result</div>
+    <hr>
+
+    <!-- In your HTML Add two buttons, where first button action for full screen mode and the second button for exit from full screen mode. -->
+    <button onclick="openFullscreen()">Full Screen</button>
+    <button onclick="closeFullscreen()">Exit</button>
+
+    <hr>
+
+    <!-- When user press any key in your html page show a alert that Invalid Key Pressed, but when user press spacebar show an alert Thank You..!! and close the current window. -->
+    <button class="button">Click me</button>
+
+    <hr>
+
+    <p class="editable-content" contenteditable="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Accusantium iure rem fugit repellat, quod ea porro tempora, assumenda quis facere veniam dignissimos ab
+        doloribus ducimus natus aspernatur officia quo quia?
+    </p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
