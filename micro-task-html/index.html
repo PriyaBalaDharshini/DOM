@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 3 Design a contact us form with all fields as required. -->
+
+    <h1>Contact Us</h1>
+    <form action="POST">
+        <label for="name">Name: </label><br>
+        <input type="name" name="" id="name"><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" name="" id="email"><br>
+
+        <label for="message">Message: </label><br>
+        <textarea name="message" id="" cols="30" rows="5">Enter your message</textarea><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <hr>
+
+    <!-- 4 Use certain HTML elements to display the following in a HTML page. -->
+    <ul>
+        <li>Programming Language
+            <ul>
+                <li>JavaScript
+                    <ul style="list-style-type: lower-alpha;">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </li>
+                <li>Python
+                    <ul style="list-style-type: lower-alpha;">
+                        <li>Django Framework</li>
+                        <li>Flash Framework</li>
+
+                    </ul>
+                </li>
+                <li>Java
+                    <ul style="list-style-type: lower-alpha;">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <!--  5 Create an element that helps you to open the https://google.com in separate new tab. -->
+    <a href="https://google.com" target="_blank">Click</a>
+    <hr>
+    <!-- 6 In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+ -->
+    <form action="">
+        <label for="salaried">Employee Type</label><br>
+        <input type="radio" name="employee_type" id="salaried"> Salaried
+        <input type="radio" name="employee_type" id="employee_type"> own business
+    </form>
+    <hr>
+    <!-- 8 Use the table tag to design given image -->
+    <h2>Health Chart</h2>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+
+                <th>After eating</th>
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+
+                <th>2 hrs after eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>196</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- 9 Write HTML input tags snippet to show default values for all Form elements. -->
+    <h3>Default values of Form</h3>
+    <form action="">
+        <label for="email">Email: </label><br>
+        <input type="email" name="" id="email"><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" name="" id="password"><br>
+
+        <label for="textarea">Textarea: </label><br>
+        <textarea name="" id="textarea" cols="30" rows="5">Your text....</textarea>
+
+        <label for="select">Select Option:</label><br>
+        <select name="select" id="select">
+            <option value="option1" selected>Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select><br>
+
+        <label for="checkbox">Checkbox: </label>
+        <input type="checkbox" name="" id="checkbox"><br>
+
+        <label for="select">Radio button: </label><br>
+        <input type="radio" name="radio_button" id="select"> Option 1
+        <input type="radio" name="radio_button" id="non-select"> Option 2 <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <!-- In your, HTML page add the below line and Highlight it without using any CSS. -->
+    <ul>
+        <li>"HTML & CSS is awesome"</li>
+    </ul>
+    <hr>
+
+    <!-- 11 Create an HTML page, which should contain all types of input elements. -->
+    <h2>All types of input elements</h2>
+
+    <form action="">
+        <label for="text">Text Input: </label><br>
+        <input type="text" name="" id="text" placeholder="Enter tour text"><br>
+
+        <label for="password">Password Input: </label><br>
+        <input type="password" name="" id="password"><br>
+
+        <label for="email">Email input:</label><br>
+        <input type="email" name="" id="email"><br>
+
+        <label for="number">Number Input: </label><br>
+        <input type="number" name="" id="number"><br>
+
+        <label for="date">Date Input: </label><br>
+        <input type="date" name="" id="date"><br>
+
+        <label for="color">Color Input</label><br>
+        <input type="color" name="" id="color"><br>
+
+        <label for="file">File Input: </label><br>
+        <input type="file" name="" id="file"><br>
+
+        <label for="range">Range input: </label><br>
+        <input type="range" name="" id="range"><br>
+
+        <label for="select">Select</label>
+        <select name="" id="select">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select><br>
+
+        <label for="checkbox">Checkbox: </label>
+        <input type="checkbox" name="" id="checkbox"><br>
+
+        <label for="select">Radio: </label><br>
+        <input type="radio" name="radio_inp" id="select"> Option 1
+        <input type="radio" name="radio_inp" id="not-selected">Option 1
+    </form>
+</body>
+
+</html>

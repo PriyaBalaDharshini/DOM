@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2 */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 40px;
+}
+
+img {
+    border-radius: 30px;
+    border: 1px dashed black;
+    filter: grayscale(100%);
+    /* filter: blur(1px); */
+    /* filter: brightness(1.5); 150% brightness */
+    /* filter: contrast(1.8); 120% contrast  */
+    /* filter: hue-rotate(100deg); 90-degree rotation */
+    /* filter: invert(100%); like a photographic negative. */
+    /* filter: opacity(0.3); 50% opacity 0 to 1 */
+    /* filter: saturate(1.5); 150% saturation */
+    /* filter: sepia(100%); like black and white */
+}
+
+/* 3 */
+
+.para {
+    font-size: 16px;
+    padding: 50px;
+}
+
+/* Default font size for the para */
+
+/* Media query for smaller viewport widths (when resized) */
+@media (max-width: 800px) {
+    .para {
+        font-size: 14px;
+        /* Decrease font size for smaller viewports */
+    }
+}
+
+/* Media query for even smaller viewport widths */
+@media (max-width: 600px) {
+    .para {
+        font-size: 12px;
+        /* Further decrease font size for very small viewports */
+    }
+}
+
+/* 4 */
+.auto {
+    cursor: auto;
+    background-color: pink;
+}
+
+.pointer {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.default {
+    cursor: default;
+    background-color: pink;
+}
+
+.text {
+    cursor: text;
+    background-color: skyblue;
+}
+
+.move {
+    cursor: move;
+    background-color: pink;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+    background-color: skyblue;
+}
+
+.crosshair {
+    cursor: crosshair;
+    background-color: pink;
+}
+
+.wait {
+    cursor: wait;
+    background-color: skyblue;
+}
+
+.help {
+    cursor: help;
+    background-color: pink;
+}
+
+.grab {
+    cursor: grab;
+    background-color: skyblue;
+}
+
+.grabbing {
+    cursor: grabbing;
+    background-color: pink;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+    background-color: skyblue;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+    background-color: pink;
+}
+
+.e-resize {
+    cursor: e-resize;
+    background-color: skyblue;
+}
+
+.n-resize {
+    cursor: n-resize;
+    background-color: pink;
+}
+
+.s-resize {
+    cursor: s-resize;
+    background-color: skyblue;
+}
+
+.w-resize {
+    cursor: w-resize;
+    background-color: pink;
+}
+
+.cursor-type>div {
+    margin: 10px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+/* 5 */
+
+.boxmodel {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+/* 6 */
+
+span:hover {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    margin-top: 10px;
+}
+
+/* 7 */
+#transform {
+    transform: translate(50px, 30px);
+    /* transform: translate3d(50px, 30px, 10px); */
+}
