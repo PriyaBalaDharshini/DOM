@@ -1,9 +1,18 @@
 /*  Color a span/div element content when a user moves the mouse over the element. */
 
-let div = document.createElement("div");
+/* let div = document.createElement("div");
 div.setAttribute("id", "hoverDiv");
 div.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, asperiores?";
-document.body.append(div);
+document.body.append(div); */
+
+let res = document.createElement("div");
+res.innerHTML="This is div";
+res.addEventListener("mouseover", foo);
+document.body.append(res);
+
+function foo(){
+    res.style.color="red";
+}
 
 
 function getValue() {
